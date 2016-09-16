@@ -1,4 +1,4 @@
-# Rock Paper Scissors
+# Scrabble Score
 
 #### _A web app that calculates your scrabble score_
 
