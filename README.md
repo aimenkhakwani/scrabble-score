@@ -6,7 +6,7 @@
 
 ## Description
 
-This website takes user input and calculates the user's scrabble score.
+This website takes input and calculates the user's scrabble score. Contains code for business logic only, no user interface.
 
 ## Setup/Installation Requirements
 
