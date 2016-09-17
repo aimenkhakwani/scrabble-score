@@ -12,9 +12,9 @@ This website takes user input and calculates the user's scrabble score.
 
 * Clone the repository
 * Using the command line, navigate to the project's root directory
-* Install dependencies by running $ composer install
-* Navigate to the /web directory and start a local server with $ php -S localhost:8000
-* Open a browser and go to the address http://localhost:8000 to view the application
+* Install dependencies by running $composer install
+* Test the methods by running $./vendor/bin/phpunit tests
+* Change tests or add tests in tests/ScoreTest.php
 
 ## Specifications
 
@@ -22,13 +22,22 @@ This website takes user input and calculates the user's scrabble score.
     * Example input: a
     * Example output: 1
 
-* The program takes a single user input and outputs the scrabble score for it
+* The program takes a single user input and outputs the correct scrabble score for it
     * Example input: b
     * Example output: 3
 
 * The program returns the score if the user enters a string of letters
     * Example input: abc
     * Example output: 7
+
+* Points Per Letter:
+    * A, E, I, O, U, L, N, R, S, T  = 1
+    * D, G = 2
+    * B, C, M, P = 3
+    * F, H, V, W, Y = 4
+    * K = 5
+    * J, X = 8
+    * Q, Z = 10
 
 ## Known Bugs
 
@@ -42,7 +51,7 @@ For questions or comments, please contact me through GitHub.
 
 * _PHP_
 * _Silex_
-* _Twig_
+* _PHP Unit_
 * _Bootstrap_
 
 ### License

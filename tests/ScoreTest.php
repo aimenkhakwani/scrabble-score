@@ -20,13 +20,13 @@
         {
             //Arrange
             $test_Score = new Score;
-            $input = "ab";
+            $input = "ycnz";
 
             //Act
             $result = $test_Score->addScore($input);
 
             //Assert
-            $this->assertEquals(4, $result);
+            $this->assertEquals(18, $result);
         }
 
         function test_addScore_caps()
